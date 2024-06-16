@@ -19,7 +19,12 @@ const Navbar = () => {
   return (
     <nav className="p-4 w-full z-10 bg-white text-black border">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-lg font-bold">MyLogo</div>
+        <div className="text-lg font-bold">
+          <img
+            src="https://www.weddingwire.com/assets/img/logos/gen_logoHeader-pride.svg"
+            alt=""
+          />
+        </div>
         <div className="hidden md:flex space-x-8">
           <ul className="menu menu-horizontal p-0">
             {navRoutes.map((route) => (
