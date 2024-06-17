@@ -5,7 +5,6 @@ const Gallary = ({ image }) => {
     return <div>No images to display.</div>;
   }
 
-  console.log(image);
   return (
     <div>
       <div className="carousel rounded-box w-60 md:w-80">

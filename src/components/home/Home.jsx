@@ -30,11 +30,7 @@ const Home = () => {
   return (
     <div>
       <div className="w-full">
-        <img
-          src="../../../public/images/cover5.png"
-          className="w-full"
-          alt=""
-        />
+        <img src="/images/tan.png" className="w-full" alt="" />
 
         {/* Just a heading section */}
         <div className=" p-10">
