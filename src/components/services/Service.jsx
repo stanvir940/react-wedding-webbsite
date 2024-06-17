@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Rating from "../ratings/Rating";
 
 const Service = () => {
   return (
@@ -49,8 +50,8 @@ const Service = () => {
       <div className="flex justify-center text-3xl text-gray-700 font-bold font-sans m-5 md:m-10">
         <h1>Services We Provided</h1>
       </div>
-      <div className="grid grid-cols-2 gap-2 p-5 md:grid-cols-3 gap-5 p-24">
-        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 p-6 md:hover:scale-105 md:hover:bg-slate-200">
+      <div className="grid grid-cols-2 gap-2 p-5 md:grid-cols-3 md:gap-5 md:pl-24 md:pr-24 md:pb-24">
+        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 md:p-6 md:hover:scale-105 md:hover:bg-slate-200">
           <div className="flex justify-center">
             <img src="/images/pack1.jpg" alt="" />
           </div>
@@ -61,11 +62,14 @@ const Service = () => {
             From concept to execution, I manage every aspect of your wedding,
             ensuring a seamless and unforgettable experience.
           </p>
+          <div className="">
+            <Rating></Rating>
+          </div>
           <button className=" bg-lime-400 text-black font-semibold rounded-xl p-4 mt-4">
             Subscribe
           </button>
         </div>
-        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 p-6  md:hover:scale-105 md:hover:bg-slate-200">
+        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 md:p-6  md:hover:scale-105 md:hover:bg-slate-200">
           <div className="flex justify-center">
             <img src="/images/pack2.jpeg" alt="" />
           </div>
@@ -76,11 +80,14 @@ const Service = () => {
             From concept to execution, I manage every aspect of your wedding,
             ensuring a seamless and unforgettable experience.
           </p>
+          <div className="">
+            <Rating></Rating>
+          </div>
           <button className=" bg-lime-400 text-black font-semibold rounded-xl p-4 mt-4">
             Subscribe
           </button>
         </div>
-        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 p-6  md:hover:scale-105 md:hover:bg-slate-200">
+        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 md:p-6  md:hover:scale-105 md:hover:bg-slate-200">
           <div className="flex justify-center">
             <img src="/images/pack3.jpg" alt="" />
           </div>
@@ -91,11 +98,14 @@ const Service = () => {
             From concept to execution, I manage every aspect of your wedding,
             ensuring a seamless and unforgettable experience.
           </p>
+          <div className="">
+            <Rating></Rating>
+          </div>
           <button className=" bg-lime-400 text-black font-semibold rounded-xl p-4 mt-4">
             Subscribe
           </button>
         </div>
-        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 p-6  md:hover:scale-105 md:hover:bg-slate-200">
+        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 md:p-6  md:hover:scale-105 md:hover:bg-slate-200">
           <div className="flex justify-center">
             <img
               src="https://images.squarespace-cdn.com/content/v1/5f4d8bd7105d20465ff557b5/1631688419190-PP3DA1NCRAXLW4GI0H4V/wedding+venues+oklahoma_outdoor+wedding+venue_Plantation+at+coal+creek.jpg"
@@ -109,11 +119,14 @@ const Service = () => {
             From concept to execution, I manage every aspect of your wedding,
             ensuring a seamless and unforgettable experience.
           </p>
+          <div className="">
+            <Rating></Rating>
+          </div>
           <button className=" bg-lime-400 text-black font-semibold rounded-xl p-4 mt-4">
             Subscribe
           </button>
         </div>
-        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 p-6  md:hover:scale-105 md:hover:bg-slate-200">
+        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 md:p-6  md:hover:scale-105 md:hover:bg-slate-200">
           <div className="flex justify-center">
             <img
               src="https://www.simplybrilliantevent.com/wp-content/uploads/2023/07/Shinola-Hotel-1024x683.jpg"
@@ -127,11 +140,14 @@ const Service = () => {
             From concept to execution, I manage every aspect of your wedding,
             ensuring a seamless and unforgettable experience.
           </p>
+          <div className="">
+            <Rating></Rating>
+          </div>
           <button className=" bg-lime-400 text-black font-semibold rounded-xl p-4 mt-4">
             Subscribe
           </button>
         </div>
-        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 p-6  md:hover:scale-105 md:hover:bg-slate-200">
+        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 md:p-6  md:hover:scale-105 md:hover:bg-slate-200">
           <div className="flex justify-center">
             <img
               src="https://lullephoto.com/wp-content/uploads/2023/03/Minnesota-wedding-venue-legacy-hill-1024x683.webp"
@@ -145,6 +161,9 @@ const Service = () => {
             From concept to execution, I manage every aspect of your wedding,
             ensuring a seamless and unforgettable experience.
           </p>
+          <div className="">
+            <Rating></Rating>
+          </div>
           <button className=" bg-lime-400 text-black font-semibold rounded-xl p-4 mt-4">
             Subscribe
           </button>
