@@ -33,7 +33,7 @@ const Home = () => {
         <img src="/images/tan.png" className="w-full" alt="" />
 
         {/* Just a heading section */}
-        <div className=" p-10">
+        <div className="p-2 md:p-10">
           <h1 className=" font-serif font-bold text-center text-3xl text-blue-700">
             Plan anywhere, anytime with our wedding planning tools
           </h1>
@@ -43,7 +43,7 @@ const Home = () => {
         </div>
 
         {/* first section */}
-        <div className="card border pl-6 m-4 shadow-lg overflow-hidden md:m-14 md:grid grid-cols-2 gap-4 p-20 pl-14">
+        <div className="card border pl-3 m-4 shadow-lg overflow-hidden md:m-14 md:grid md:grid-cols-2 md:gap-4 md:p-20">
           <div>
             <h2 className=" text-3xl font-bold text-black pt-4 pb-4">
               Checklist
@@ -72,12 +72,12 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 gap-1 border p-5 m-5">
+          <div className="grid grid-cols-2 gap-1 border md:p-5 md:m-5 m-3 p-1">
             <div>
               <img
                 src="https://smp-is.stylemepretty.com/submissions/uploads/341702/5f21f492cbf03$!1200x.jpg"
                 alt=""
-                className=" w-full"
+                className="md:w-full"
               />
             </div>
             <div className=" pb-2 pl-3">
@@ -90,10 +90,13 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="flex">
-            <div className="avatar w-10 m-5">
+          <div className="flex p-2 md:p-6">
+            <div className="avatar w-10 h-12 md:h-fit m-5 ">
               <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                <img
+                  className="w-24 h-24"
+                  src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                />
               </div>
             </div>
             <div>
@@ -108,7 +111,7 @@ const Home = () => {
         </div>
 
         {/* another section */}
-        <div className="card border pl-6 m-4 shadow-lg overflow-hidden md:m-14 md:grid grid-cols-2 gap-3 p-20 pl-14">
+        <div className="card border pl-2 mt-8 m-4 shadow-lg overflow-hidden md:m-14 md:grid grid-cols-2 gap-3 md:p-20 md:pl-14">
           <div>
             <h2 className=" text-3xl font-bold text-black pt-4 pb-4">
               Vendor manager
@@ -135,7 +138,7 @@ const Home = () => {
               Add, edit or delete tasks anytime to easily customize your
               WeddingWire Checklist
             </p>
-            <button className=" bg-blue-600 font-bold font-thin text-white p-5 mt-4 border-red-500 font-semibold rounded-lg text-1xl">
+            <button className=" bg-blue-600 font-bold font-thin text-white p-5 mt-4 border-red-500 rounded-lg text-1xl hover:bg-blue-800">
               Find your vendor
             </button>
           </div>
@@ -170,7 +173,7 @@ const Home = () => {
         </div>
 
         {/* third section */}
-        <div className="card border pl-6 m-4 shadow-lg overflow-hidden md:m-14 md:grid grid-cols-2 gap-3 m-14 p-10">
+        <div className="card border pl-4 pr-2 pt-4 mt-8 m-4 shadow-lg overflow-hidden md:m-14 md:grid md:grid-cols-2 md:gap-3 md:p-10">
           <div>
             <h2 className=" text-3xl font-bold text-black pt-4 pb-4">
               Your wedding website
@@ -197,12 +200,12 @@ const Home = () => {
               Add, edit or delete tasks anytime to easily customize your
               WeddingWire Checklist
             </p>
-            <button className=" bg-blue-600 font-bold font-thin text-white p-5 mt-4 border-red-500 font-semibold rounded-lg text-1xl">
+            <button className=" bg-blue-600 font-bold font-thin text-white p-5 mt-4 border-red-500 font-semibold rounded-lg text-1xl hover:bg-blue-800">
               Create your website
             </button>
           </div>
           <div>
-            <div className="card border m-2 p-5 md:m-5 p-3">
+            <div className="card border m-2 mt-4 md:p-5 md:m-5 p-3">
               <p className=" font-bold text-black pl-4">Wedding Website</p>
               <div className=" w-full p-4">
                 <Gallary image={weddingWebsite}></Gallary>
@@ -244,7 +247,7 @@ const Home = () => {
         </div>
 
         {/* this is a card view options */}
-        <div className="grid grid-cols-2 gap-2 md:grid-cols-3 gap-5 m-5">
+        <div className="grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-5 m-5">
           <div className="card border shadow-lg overflow-hidden p-5 md:hover:scale-105 hover:shadow-xl cursor-pointer hover:bg-slate-100">
             <img
               className=" w-10 mx-auto mb-2"
@@ -340,7 +343,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="md:grid grid-cols-2 gap-4 p-20 text-black">
+        <div className="md:grid grid-cols-2 gap-4 p-6 md:p-20 text-black">
           <div>
             <h1 className="font-bold pl-5 text-2xl">
               Plan on the go with the WeddingWire app

@@ -46,6 +46,7 @@ const About = () => {
         </div>
       </div>
 
+      {/* About us */}
       <div className="p-8 md:grid grid-cols-2 gap-4 md:p-10">
         <div className="">
           <div className="flex justify-center text-2xl font-bold text-green-500 p-5">
@@ -113,11 +114,14 @@ const About = () => {
         </div>
       </div>
 
+      {/* My story section */}
       <div className="flex justify-center text-3xl text-gray-700 font-bold font-sans m-5 md:m-10">
         <h1>Our success stories</h1>
       </div>
-      <div className="grid grid-cols-2 gap-2 p-5 m-8 md:grid-cols-3 md:gap-5 md:p-24 md:m-10">
-        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 p-6">
+
+      {/*  */}
+      <div className="p-3 m-4 md:grid md:grid-cols-3 md:gap-5 md:p-24 md:m-10">
+        <div className="card shadow-lg overflow-hidden mr-4 mt-3 p-4 md:mr-8 md:p-6 hover:scale-105 hover:bg-gray-200">
           <div className="flex justify-center align-middle">
             <img src="/images/story1.jpg" alt="" />
           </div>
@@ -132,7 +136,7 @@ const About = () => {
             Subscribe
           </button>
         </div>
-        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 p-6">
+        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 md:p-6 hover:scale-105 hover:bg-gray-200">
           <div className="flex justify-center">
             <img
               src="https://meraj.in/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/6/_/6_2.jpg"
@@ -150,7 +154,7 @@ const About = () => {
             Subscribe
           </button>
         </div>
-        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 p-6">
+        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 md:p-6 hover:scale-105 hover:bg-gray-200">
           <div className="flex justify-center">
             <img src="/images/story1.jpg" alt="" />
           </div>
@@ -165,7 +169,7 @@ const About = () => {
             Subscribe
           </button>
         </div>
-        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 p-6">
+        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 md:p-6 hover:scale-105 hover:bg-gray-200">
           <div className="flex justify-center">
             <img src="/images/story4.jpg" alt="" />
           </div>
@@ -180,7 +184,7 @@ const About = () => {
             Subscribe
           </button>
         </div>
-        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 p-6">
+        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 md:p-6 hover:scale-105 hover:bg-gray-200">
           <div className="flex justify-center">
             <img
               src="https://shaadiwish.com/blog/wp-content/uploads/2021/02/bride-and-groom-in-pastel-outfits.jpg"
@@ -198,7 +202,7 @@ const About = () => {
             Subscribe
           </button>
         </div>
-        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 p-6">
+        <div className="card shadow-lg overflow-hidden mr-4 p-4 md:mr-8 md:p-6 hover:scale-105 hover:bg-gray-200">
           <div className="flex justify-center">
             <img src="/images/story4.jpg" alt="" />
           </div>
@@ -215,11 +219,11 @@ const About = () => {
         </div>
       </div>
 
-      <div className=" bg-white border md:p-28 md:m-10 p-8 ">
+      <div className=" bg-white border md:p-28 md:m-10 p-4 ">
         <div className="flex justify-center text-3xl text-gray-800 m-8 font-bold">
           <h1>24 Hour Customer Services</h1>
         </div>
-        <div className="border bg-gray-400 md:p-5 rounded-lg">
+        <div className="border bg-gray-400 md:p-5 rounded-lg p-3">
           <div className="chat chat-start">
             <div className="chat-bubble chat-bubble-primary">
               What kind of nonsense is this
